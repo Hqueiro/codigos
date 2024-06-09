@@ -1,0 +1,10 @@
+
+
+def boas_vindas (nome, quantidade):
+    print(f'ola {nome}.')
+    print(f'temos {quantidade} laptos em estoque')
+
+
+boas_vindas("marco",3)
+boas_vindas("ronaldo",5)
+boas_vindas("marcos",5)
