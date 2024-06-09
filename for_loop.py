@@ -33,6 +33,6 @@ while valor > 20:
     dia += 1
    
     print (f' no dia {dia} o produto vai ser vendido por {valor}')
-    valor -= 5
+    valor -= 10
     
     

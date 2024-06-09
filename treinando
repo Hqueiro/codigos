@@ -1,10 +1,18 @@
-numero = int(input(" Digite um numero positivo: "))
-if numero >0:     
-    
-    fatorial = 1
+#5qs 
+# 1 quais os dados de entrada necessários
+# 2 o que devo fazer com estes dados
+# 3 quais são as restrições deste problema
+# qual é o resultado esperado
+# qual é a sequência de passos a ser feitas para chegar ao resultado esperado
 
-for item in range(1,numero +1):
-    fatorial = fatorial * item
+def media_final ():
 
-print(fatorial)    
-   
+    num = int(input(" digite uma nota: "))
+    num_2 = int(input(" digite outra nota: "))
+    media = (num + num_2) / 2
+    return media
+
+media = media_final()
+
+print(" A média é ", media)
+
